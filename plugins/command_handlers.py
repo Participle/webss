@@ -26,7 +26,7 @@ async def start(client, message):
 async def feedback(client, message):
     await client.send_message(
         chat_id=message.chat.id,
-        text=f"for suggetions and feedbacks contact @STARKTM1",
+        text=f"for suggetions and feedbacks contact @WhatsAGroup",
         reply_to_message_id=message.message_id
     )
 
@@ -35,7 +35,7 @@ async def feedback(client, message):
 async def about(client, message):
     await client.send_message(
         chat_id=message.chat.id,
-        text='This bot is created by @StarkTM1 as a project\n\n Thanks to <a href="https://t.me/cwprojects">@W4RR10R</a> and <a href="https://t.me/SpEcHlDe">@SpEcHIDe</a> for helping me ',
+        text='This bot is featured by @WhatsABot ',
         disable_web_page_preview=True
     )
 
